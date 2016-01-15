@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC029E331BE2544C00919B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC029E321BE2544C00919B70 /* main.m */; };
+		CC029E441BE2554F00919B70 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CC029E431BE2554F00919B70 /* Car.m */; };
+		CC029E471BE2570800919B70 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = CC029E461BE2570800919B70 /* Tire.m */; };
+		CC029E4A1BE2571800919B70 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC029E491BE2571800919B70 /* Engine.m */; };
+		CC029E4D1BE2583400919B70 /* AllWeatherTire.m in Sources */ = {isa = PBXBuildFile; fileRef = CC029E4C1BE2583400919B70 /* AllWeatherTire.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC029E2D1BE2544C00919B70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC029E2F1BE2544C00919B70 /* Car */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Car; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC029E321BE2544C00919B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC029E421BE2554F00919B70 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CC029E431BE2554F00919B70 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		CC029E451BE2570800919B70 /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		CC029E461BE2570800919B70 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		CC029E481BE2571800919B70 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		CC029E491BE2571800919B70 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		CC029E4B1BE2583400919B70 /* AllWeatherTire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllWeatherTire.h; sourceTree = "<group>"; };
+		CC029E4C1BE2583400919B70 /* AllWeatherTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllWeatherTire.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC029E2C1BE2544C00919B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC029E261BE2544C00919B70 = {
+			isa = PBXGroup;
+			children = (
+				CC029E311BE2544C00919B70 /* Car */,
+				CC029E301BE2544C00919B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC029E301BE2544C00919B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC029E2F1BE2544C00919B70 /* Car */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC029E311BE2544C00919B70 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				CC029E321BE2544C00919B70 /* main.m */,
+				CC029E421BE2554F00919B70 /* Car.h */,
+				CC029E431BE2554F00919B70 /* Car.m */,
+				CC029E451BE2570800919B70 /* Tire.h */,
+				CC029E461BE2570800919B70 /* Tire.m */,
+				CC029E4B1BE2583400919B70 /* AllWeatherTire.h */,
+				CC029E4C1BE2583400919B70 /* AllWeatherTire.m */,
+				CC029E481BE2571800919B70 /* Engine.h */,
+				CC029E491BE2571800919B70 /* Engine.m */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC029E2E1BE2544C00919B70 /* Car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC029E361BE2544C00919B70 /* Build configuration list for PBXNativeTarget "Car" */;
+			buildPhases = (
+				CC029E2B1BE2544C00919B70 /* Sources */,
+				CC029E2C1BE2544C00919B70 /* Frameworks */,
+				CC029E2D1BE2544C00919B70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Car;
+			productName = Car;
+			productReference = CC029E2F1BE2544C00919B70 /* Car */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC029E271BE2544C00919B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hnqingyun.com;
+				TargetAttributes = {
+					CC029E2E1BE2544C00919B70 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CC029E2A1BE2544C00919B70 /* Build configuration list for PBXProject "Car" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC029E261BE2544C00919B70;
+			productRefGroup = CC029E301BE2544C00919B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC029E2E1BE2544C00919B70 /* Car */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC029E2B1BE2544C00919B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC029E441BE2554F00919B70 /* Car.m in Sources */,
+				CC029E4A1BE2571800919B70 /* Engine.m in Sources */,
+				CC029E471BE2570800919B70 /* Tire.m in Sources */,
+				CC029E331BE2544C00919B70 /* main.m in Sources */,
+				CC029E4D1BE2583400919B70 /* AllWeatherTire.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC029E341BE2544C00919B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC029E351BE2544C00919B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC029E371BE2544C00919B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC029E381BE2544C00919B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC029E2A1BE2544C00919B70 /* Build configuration list for PBXProject "Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC029E341BE2544C00919B70 /* Debug */,
+				CC029E351BE2544C00919B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC029E361BE2544C00919B70 /* Build configuration list for PBXNativeTarget "Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC029E371BE2544C00919B70 /* Debug */,
+				CC029E381BE2544C00919B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC029E271BE2544C00919B70 /* Project object */;
+}

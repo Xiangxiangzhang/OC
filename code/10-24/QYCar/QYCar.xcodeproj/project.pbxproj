@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC78F1821BDB1C9900A893F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78F1811BDB1C9900A893F6 /* main.m */; };
+		CC78F18A1BDB1CFB00A893F6 /* QYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78F1891BDB1CFB00A893F6 /* QYCar.m */; };
+		CC78F18D1BDB1FE700A893F6 /* QYEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78F18C1BDB1FE700A893F6 /* QYEngine.m */; };
+		CC78F1901BDB1FFA00A893F6 /* QYTire.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78F18F1BDB1FFA00A893F6 /* QYTire.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC78F17C1BDB1C9900A893F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC78F17E1BDB1C9900A893F6 /* QYCar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QYCar; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC78F1811BDB1C9900A893F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC78F1881BDB1CFB00A893F6 /* QYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCar.h; sourceTree = "<group>"; };
+		CC78F1891BDB1CFB00A893F6 /* QYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYCar.m; sourceTree = "<group>"; };
+		CC78F18B1BDB1FE700A893F6 /* QYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYEngine.h; sourceTree = "<group>"; };
+		CC78F18C1BDB1FE700A893F6 /* QYEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYEngine.m; sourceTree = "<group>"; };
+		CC78F18E1BDB1FFA00A893F6 /* QYTire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTire.h; sourceTree = "<group>"; };
+		CC78F18F1BDB1FFA00A893F6 /* QYTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTire.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC78F17B1BDB1C9900A893F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC78F1751BDB1C9900A893F6 = {
+			isa = PBXGroup;
+			children = (
+				CC78F1801BDB1C9900A893F6 /* QYCar */,
+				CC78F17F1BDB1C9900A893F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC78F17F1BDB1C9900A893F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC78F17E1BDB1C9900A893F6 /* QYCar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC78F1801BDB1C9900A893F6 /* QYCar */ = {
+			isa = PBXGroup;
+			children = (
+				CC78F1811BDB1C9900A893F6 /* main.m */,
+				CC78F1881BDB1CFB00A893F6 /* QYCar.h */,
+				CC78F1891BDB1CFB00A893F6 /* QYCar.m */,
+				CC78F18B1BDB1FE700A893F6 /* QYEngine.h */,
+				CC78F18C1BDB1FE700A893F6 /* QYEngine.m */,
+				CC78F18E1BDB1FFA00A893F6 /* QYTire.h */,
+				CC78F18F1BDB1FFA00A893F6 /* QYTire.m */,
+			);
+			path = QYCar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC78F17D1BDB1C9900A893F6 /* QYCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC78F1851BDB1C9900A893F6 /* Build configuration list for PBXNativeTarget "QYCar" */;
+			buildPhases = (
+				CC78F17A1BDB1C9900A893F6 /* Sources */,
+				CC78F17B1BDB1C9900A893F6 /* Frameworks */,
+				CC78F17C1BDB1C9900A893F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYCar;
+			productName = QYCar;
+			productReference = CC78F17E1BDB1C9900A893F6 /* QYCar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC78F1761BDB1C9900A893F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hnqingyun.com;
+				TargetAttributes = {
+					CC78F17D1BDB1C9900A893F6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CC78F1791BDB1C9900A893F6 /* Build configuration list for PBXProject "QYCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC78F1751BDB1C9900A893F6;
+			productRefGroup = CC78F17F1BDB1C9900A893F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC78F17D1BDB1C9900A893F6 /* QYCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC78F17A1BDB1C9900A893F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC78F18A1BDB1CFB00A893F6 /* QYCar.m in Sources */,
+				CC78F1901BDB1FFA00A893F6 /* QYTire.m in Sources */,
+				CC78F1821BDB1C9900A893F6 /* main.m in Sources */,
+				CC78F18D1BDB1FE700A893F6 /* QYEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC78F1831BDB1C9900A893F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC78F1841BDB1C9900A893F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC78F1861BDB1C9900A893F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC78F1871BDB1C9900A893F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC78F1791BDB1C9900A893F6 /* Build configuration list for PBXProject "QYCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC78F1831BDB1C9900A893F6 /* Debug */,
+				CC78F1841BDB1C9900A893F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC78F1851BDB1C9900A893F6 /* Build configuration list for PBXNativeTarget "QYCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC78F1861BDB1C9900A893F6 /* Debug */,
+				CC78F1871BDB1C9900A893F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC78F1761BDB1C9900A893F6 /* Project object */;
+}
